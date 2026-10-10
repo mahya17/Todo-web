@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fa">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GreenTask(To-Do App)</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1> 🌿یه نفس عمیق بکش، بعد شروع کن</h1>
+
+    <!-- قسمت افزودن کار جدید -->
+    <div class="new-task">
+      <input id="title" placeholder="عنوان کار..." />
+      <input id="details" placeholder="توضیحات (اختیاری)" />
+      <button id="addBtn">افزودن</button>
+      <span id="msg" class="msg"></span>
+    </div>
+
+    <!-- نمایش لیست کارها -->
+    <ul id="tasks" class="tasks"></ul>
+
+    <p class="hint">برای ویرایش، روی عنوان دوبار کلیک کن</p>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
